@@ -1,7 +1,7 @@
 # Next Data
 <p align="center">
     
-![Imagem do projeto](C:\Users\joaop\challenge-fiap\docs\assets\img\nextdata.jpg)
+![Imagem do projeto](docs\assets\img\nextdata.jpg)
 
 Com tantos produtos parecidos no e-commerce, fica cada vez mais difícil para o consumidor escolher o que comprar, e para os comerciantes, é um desafio se destacar. Pensando nisso, criamos o NextData, um sistema de recomendação que usa dados de pedidos, entregas, avaliações e vendas para ajudar os consumidores a encontrarem o produto ideal de forma mais fácil e rápida, ao mesmo tempo em que dá mais visibilidade aos lojistas.
 
