@@ -1,88 +1,46 @@
-# <Título do projeto>
+# Next Data
+<p align="center">
+    
+![Imagem do projeto](C:\Users\joaop\challenge-fiap\docs\assets\img\nextdata.jpg)
 
-Insira aqui um resumo do projeto que será construído. Tente apresentar uma justificativa para o projeto. É desejável que também se insira um [graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
+Com tantos produtos parecidos no e-commerce, fica cada vez mais difícil para o consumidor escolher o que comprar, e para os comerciantes, é um desafio se destacar. Pensando nisso, criamos o NextData, um sistema de recomendação que usa dados de pedidos, entregas, avaliações e vendas para ajudar os consumidores a encontrarem o produto ideal de forma mais fácil e rápida, ao mesmo tempo em que dá mais visibilidade aos lojistas.
+
+# Justificativa
+No cenário atual do e-commerce, a grande variedade de produtos semelhantes e com boas avaliações cria uma sobrecarga cognitiva para os consumidores, dificultando a escolha do produto ideal. Isso afeta tanto os consumidores, que ficam indecisos, quanto os lojistas, que têm dificuldades em destacar seus produtos entre tantas opções. Esse problema pode reduzir a taxa de conversão, a fidelização de clientes e as vendas no geral.
+
+No NextData, a proposta é utilizar dados de pedidos, entregas, avaliações de clientes e histórico de vendas para criar um sistema de recomendação inteligente, que ajude a priorizar e recomendar os produtos mais relevantes para os consumidores. O objetivo é entender as relações entre os dados, como quais produtos são mais vendidos, quais canais de venda geram mais transações, e como o tempo de entrega impacta as avaliações.
+
+**Com essa abordagem, buscamos responder a questões como**:
+
+1. Quais produtos têm mais chances de serem comprados juntos?
+2. Quais categorias ou lojas estão dominando as vendas no marketplace?
+3. O tempo de entrega influencia a satisfação do cliente e suas avaliações?
+4. Quais canais de venda geram mais transações e como isso pode influenciar as recomendações?
+
+Com essas análises, queremos oferecer uma solução que melhore a experiência de compra, aumente a taxa de conversão e ajude os lojistas a se destacarem no marketplace. Além disso, o sistema de recomendação será mais intuitivo e personalizado, promovendo uma experiência mais eficiente para os consumidores e ajudando os lojistas a alcançarem melhores resultados.
+
+## Metodologia
+
+O projeto será desenvolvido utilizando a metodologia CRISP-DM, seguindo os seguintes passos:
+
+1. Entendimento de negócio
+2. Entendimento de dados
+3. Preparação dos dados
+4. Modelagem
+
+O projeto também é dividido em entregas, a saber:
+
+1. **Criação do Banco de Dados**: Estruturar o banco de dados necessário para armazenar e gerenciar os dados de pedidos, entregas, avaliações, e histórico de vendas.
+2. **Análise Exploratória de Dados (EDA)**: Entender profundamente as variáveis que impactam o desempenho do sistema de recomendação e identificação de padrões nos dados através de hipóteses, visualizações e insights.
+3. **Análise comparativa de modelos**: Avaliar diferentes modelos de aprendizado de máquina para prever o consumo e classificar os produtos com base nos dados analisados.
+4. **Dashboard Interativo**: Desenvolver uma interface interativa para visualizar os resultados do sistema de recomendação de produtos e permitir a interação com os dados.
+
+# Resultados
+Em síntese, a proposta de um sistema de recomendação visa otimizar a experiência de compra, tornando-a mais personalizada e eficiente. Focando em aspectos como preço, popularidade, avaliações e histórico de compras, a solução ajudará os consumidores a escolherem produtos de forma mais rápida e assertiva. Isso não só melhora a experiência do usuário, mas também oferece uma vantagem competitiva para a plataforma, ao atender melhor às necessidades do cliente e aumentar as vendas.
 
 ## Desenvolvedores
- - [Nome do desenvolvedor #1](url-do-github-do-desenvolvedor-#1)
- - [Nome do desenvolvedor #2](url-do-github-do-desenvolvedor-#2)
- - [Nome do desenvolvedor #3](url-do-github-do-desenvolvedor-#3)
- - [Nome do desenvolvedor #4](url-do-github-do-desenvolvedor-#4)
- - ...
-
----
-
-> **Nota**: todo o texto abaixo é somente para entendimento do usuário do template. Por favor remova-o quando for atualizar este `README.md`.
-
-## Funcionalidades
-
-Esse template foi inicialmente baseado no [template de ciência de dados do cookiecutter](https://drivendata.github.io/cookiecutter-data-science/), mas ao longo do tempo várias modificações foram sendo realizadas. Atualmente o template tem as seguintes características:
- - Utilização do arquivo `pyproject.toml` como centralizador de dependências;
- - Configuração para criação de aplicação `streamlit`;
- - Utilização de [jupyter notebooks](https://jupyter.org/) para arquivos de análise;
- - Documentação com o [mkdocs](https://www.mkdocs.org/) ([material design](https://squidfunk.github.io/mkdocs-material/) theme)
-
-## Instruções
-
-### Requisitos
-
-Para utilizar este template, você precisará de um ambiente com os seguintes softwares:
- - git
- - Python 3.8
- - Poetry `1.1.13` ou superior
-
-É aconselhável o uso do `pyenv` para o gerenciamento de versões do Python.
-
-### Iniciando um novo projeto
-
-Para iniciar um novo projeto você precisa ter instalado na sua máquina as aplicações citadas na seção anterior, depois disso basta:
-
-1. clicar no botão **Use this template** (ou "Usar este modelo").
-2. Digitar um nome para seu repositório e uma descrição opcional.
-3. Escolher a visibilidade do projeto (Publica ou privada).
-4. Clicar em **Create repository from template** (Criar repositório a partir do modelo).
-
-Pronto, acaba de criar um repositório a partir deste modelo. Para mais informações sobre o uso de templates, acesse a [documentação oficial](https://docs.github.com/pt/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-
-### Contribuindo com um repositório já criado
-
-Depois de criar o repositório, para começar a modificá-lo e/ou contribuir com repositórios já criados,  você precisa cloná-lo. Para isso, siga os seguintes passos:
-
-1. Acima da lista de arquivos, clique no botão **Code** (em verde).
-2. Copie a URL para o repositório.
-    - Tente clonar utilizando uma chave **SSH**. Para isso, clique na aba **SSH** e em seguida clique no ícone de cópia.
-3. Abra o terminal.
-4. Altere o diretório de trabalho atual para o local que deseja ter o diretório clonado.
-5. Digite `git clone` e cole a URL que você copiou anteriormente:
-
-```
-git clone git@github.com:NOME-DE-USUARIO/REPOSITORIO.git
-```
-6. Pressione **Enter** para criar seu clone local.
-
-Proto, com isso você acaba de clonar um repositório. Para mais informações sobre a clonagem de arquivos, acesse a [documentação oficial](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
-
-Com o repositório clonado, você precisa navegar até a pasta local, usando o comando :
-
-```
-cd REPOSITORIO
-```
-
-Estando na pasta do repositório, basta instalar as dependências do projeto utilizando o comando:
-
-```
-poetry install
-```
-
-Ele irá instalar todas as dependências contidas no arquivo `pyproject.toml`. Depois disso basta ativar o ambiente virtual criado pelo Poetry utilizando o comando:
-
-```
-poetry shell
-```
-
-Para mais informações sobre os comandos do Poetry, visite a [documentação oficial](https://python-poetry.org/docs/).
-
-Para contribuir com um projeto, tente utilizar uma metodologia adequada. Utilize [este artigo](https://omadson.github.io/site/blog/2022/software-development-workflow/) para obter mais informações.
+ - [João Paulo Ferreira](https://github.com/joao-paulo-alt)
+ - [Caio Guimaraes](https://github.com/caioguimaraes18)
 
 
 ### Organização de diretórios
