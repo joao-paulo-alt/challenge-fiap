@@ -1,0 +1,46 @@
+,variavel,descricao,tipo,subtipo
+0,channel_id,Identificador do canal de venda,qualitativa,nominal
+1,channel_name,"Nome do canal (ex: App, WhatsApp, etc.)",qualitativa,nominal
+2,channel_type,"Tipo do canal (Próprio, Marketplace, etc.)",qualitativa,nominal
+3,delivery_id,Identificador único da entrega,qualitativa,nominal
+4,delivery_order_id,ID do pedido relacionado à entrega,qualitativa,nominal
+5,driver_id,ID do motorista responsável pela entrega,qualitativa,nominal
+6,delivery_distance_meters,Distância total da entrega em metros,quantitativa,contínua
+7,delivery_status,"Status final da entrega (ex: entregue, cancelada, etc.)",qualitativa,nominal
+8,driver_modal,"Modal de transporte do motorista (carro, moto, bike, etc.)",qualitativa,nominal
+9,driver_type,"Tipo de vínculo com o motorista (CLT, parceiro, etc.)",qualitativa,nominal
+10,hub_id,Identificador do hub logístico,qualitativa,nominal
+11,hub_name,Nome do hub logístico,qualitativa,nominal
+12,hub_city,Cidade onde o hub está localizado,qualitativa,nominal
+13,hub_state,Estado onde o hub está localizado,qualitativa,nominal
+14,hub_latitude,Latitude da localização do hub,quantitativa,contínua
+15,hub_longitude,Longitude da localização do hub,quantitativa,contínua
+16,order_id,Identificador do pedido,qualitativa,nominal
+17,store_id,ID da loja responsável pelo pedido,qualitativa,nominal
+18,channel_id,ID do canal usado para fazer o pedido,qualitativa,nominal
+19,payment_order_id,ID da transação de pagamento associada,qualitativa,nominal
+20,order_status,"Status do pedido (finalizado, cancelado, etc.)",qualitativa,nominal
+21,order_amount,Valor total do pedido,quantitativa,contínua
+22,order_delivery_fee,Valor pago de taxa de entrega,quantitativa,contínua
+23,order_delivery_cost,Custo real da entrega,quantitativa,contínua
+24,order_moment_created,Data/hora da criação do pedido,temporal,datetime
+25,order_moment_accepted,Data/hora da aceitação do pedido pela loja,temporal,datetime
+26,order_moment_ready,Data/hora em que o pedido ficou pronto,temporal,datetime
+27,order_moment_collected,Data/hora da coleta do pedido pelo entregador,temporal,datetime
+28,order_moment_delivered,Data/hora em que o pedido foi entregue,temporal,datetime
+29,order_metric_cycle_time,Tempo total do ciclo do pedido (criação até finalização),quantitativa,contínua
+30,order_metric_transit_time,Tempo de trânsito (da coleta até a entrega),quantitativa,contínua
+31,order_metric_production_time,Tempo de produção do pedido,quantitativa,contínua
+32,payment_id,ID da transação de pagamento,qualitativa,nominal
+33,payment_order_id,ID do pedido associado ao pagamento,qualitativa,nominal
+34,payment_amount,Valor pago pelo cliente,quantitativa,contínua
+35,payment_fee,Taxa cobrada na transação,quantitativa,contínua
+36,payment_method,Método de pagamento utilizado,qualitativa,nominal
+37,payment_status,"Status do pagamento (aprovado, recusado, etc.)",qualitativa,nominal
+38,store_id,ID da loja,qualitativa,nominal
+39,hub_id,ID do hub ao qual a loja está associada,qualitativa,nominal
+40,store_name,Nome da loja,qualitativa,nominal
+41,store_segment,Segmento de atuação da loja,qualitativa,nominal
+42,store_plan_price,Valor do plano contratado pela loja,quantitativa,contínua
+43,store_latitude,Latitude da loja,quantitativa,contínua
+44,store_longitude,Longitude da loja,quantitativa,contínua
