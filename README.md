@@ -1,7 +1,5 @@
 # Next Data
-<p align="center">
-  <img src="docs/assets/img/nextdata.jpg" alt="Imagem do projeto" width="600">
-</p>
+![Imagem do projeto](docs/assets/img/nextdata.jpg)
 
 
 ## 📌 Visão Geral
