@@ -100,7 +100,8 @@ Este projeto busca resolver esses problemas por meio de:
 ---
 
 ## 📂 Estrutura do Repositório
-.
+
+```.
 ├── data/              # Diretório contendo todos os arquivos de dados
 │   ├── external/      # Arquivos de dados de fontes externas
 │   ├── interim/       # Arquivos de dados intermediários
@@ -120,6 +121,7 @@ Este projeto busca resolver esses problemas por meio de:
 ├── poetry.lock        # Arquivo com sub-dependências do projeto principal
 ├── README.md          # Informações gerais do projeto
 └── tasks.py           # Arquivo com funções para criação de tarefas utilizadas pelo invoke
+```
 
 
 ---
@@ -153,7 +155,7 @@ python src/models/train.py
 
 ## 📈 Sobre os Dados
 
-Conjuntos obtidos no [Kaggle](https://www.kaggle.com/datasets/...) com informações sobre:
+Conjuntos obtidos no [Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center/code...) com informações sobre:
 
 - 🛒 Canais de venda  
 - 🚚 Entregas e entregadores  
@@ -198,4 +200,3 @@ Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 > **Nota**: Projeto desenvolvido como parte do projeto CHALLENGE da _FIAP_.  
 Agradecimentos especiais aos mentores e colegas pela colaboração!
-```
