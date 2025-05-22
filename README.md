@@ -155,7 +155,7 @@ python src/models/train.py
 
 ## 📈 Sobre os Dados
 
-Conjuntos obtidos no [Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center/code...) com informações sobre:
+Conjuntos obtidos no [Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center/code) com informações sobre:
 
 - 🛒 Canais de venda  
 - 🚚 Entregas e entregadores  
