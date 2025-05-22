@@ -13,12 +13,14 @@ class DeliveryRequest(BaseModel):
     is_weekend: int
     channel_type: int
 
-# Carregar o modelo salvo
 model = joblib.load('delivery_model.joblib')
+
+@app.get("/")
+def root():
+    return {"message": "API está funcionando!"}
 
 @app.post("/predict")
 def predict(data: DeliveryRequest):
-    # Preparar dados para o modelo
     df = pd.DataFrame([data.dict()])
     pred_distance = model.predict(df)[0]
     
